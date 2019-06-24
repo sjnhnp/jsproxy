@@ -24,7 +24,7 @@ jsproxy_config({
       lines: [
         // 静态资源和代理接口位于同个服务器的场合
         // 例如默认的 ip.xip.io 以及 cloudflare worker
-        location.host
+        'https://173.242.121.94.xip.io:8443',
       ]
     },
     'cfworker': {
